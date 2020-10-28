@@ -1,0 +1,6 @@
+var searchData=
+[
+  ['_5fbrute_5fsolve_5fnqueens',['_brute_solve_nqueens',['../cif__nqueens__problem_8c.html#ab6a0b015a18a479603fa272278bd3023',1,'_brute_solve_nqueens(int32_t board_size, int32_t column, int32_t board[][board_size]):&#160;cif_nqueens_problem.c'],['../cif__nqueens__problem_8h.html#a658d09c8d9268ddb281f2dad0cee5644',1,'_brute_solve_nqueens(uint32_t board_size, uint32_t column, uint32_t[][board_size] board):&#160;cif_nqueens_problem.h']]],
+  ['_5fis_5fsolved',['_is_solved',['../cif__nqueens__problem_8c.html#ab1850724a8a533fff0b8ff023593a1c9',1,'_is_solved(uint32_t board_size, uint32_t row, uint32_t *down, uint32_t *left, uint32_t *right):&#160;cif_nqueens_problem.c'],['../cif__nqueens__problem_8h.html#ab1850724a8a533fff0b8ff023593a1c9',1,'_is_solved(uint32_t board_size, uint32_t row, uint32_t *down, uint32_t *left, uint32_t *right):&#160;cif_nqueens_problem.c']]],
+  ['_5fsolve_5fnqueens',['_solve_nqueens',['../cif__nqueens__problem_8c.html#a20cb391478878195b4656604faf2ae12',1,'_solve_nqueens(uint32_t board_size, uint32_t row, uint32_t *down, uint32_t *left, uint32_t *right, uint32_t *board):&#160;cif_nqueens_problem.c'],['../cif__nqueens__problem_8h.html#a20cb391478878195b4656604faf2ae12',1,'_solve_nqueens(uint32_t board_size, uint32_t row, uint32_t *down, uint32_t *left, uint32_t *right, uint32_t *board):&#160;cif_nqueens_problem.c']]]
+];
