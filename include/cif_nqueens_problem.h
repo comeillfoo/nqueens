@@ -1,4 +1,4 @@
-/* 
+/*
  * File:   cif_nqueens_problem.h
  * Author: comeillfoo
  */
@@ -7,7 +7,7 @@
 #define CIF_NQUEENS_PROBLEM_H
 
 /**
- * The function that get appropriate 
+ * The function that get appropriate
  * position in "down" bit vector using board column number
  *
  * @param column the number of column in board
@@ -37,7 +37,7 @@ uint32_t get_left_index(uint32_t column, uint32_t row);
  * @return the number of position in "right" bit vector
  */
 uint32_t get_right_index(uint32_t column, uint32_t row, uint32_t size);
-  
+
 /**
  * Function checks if one particular column is not free
  * for placing queen there
@@ -166,7 +166,7 @@ void print_nqueens_solution(uint32_t for_size);
  * @param board
  * @return sign of solution existance
  */
-bool _brute_solve_nqueens(uint32_t board_size, uint32_t column, uint32_t[][board_size] board);
+bool _brute_solve_nqueens(uint32_t board_size, uint32_t column, uint32_t board[][board_size]);
 
 /**
  * Function looks for the solution
@@ -191,7 +191,7 @@ bool brute_has_solution(uint32_t board_size);
  *
  * @return sign of placing ability
  */
-bool brute_is_placeable(uint32_t board_size, uint32_t[][board_size] board, uint32_t row, uint32_t column);
+bool brute_is_placeable(uint32_t board_size, uint32_t board[][board_size], uint32_t row, uint32_t column);
 
 #endif /* CIF_NQUEENS_PROBLEM_H */
 

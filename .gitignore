@@ -1,4 +1,6 @@
 .*
+nqueens
+build
 *.pdf
 !.gitignore
 !.gitkeep

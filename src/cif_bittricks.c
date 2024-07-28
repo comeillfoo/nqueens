@@ -1,4 +1,4 @@
-#include<stdint.h>
+#include <stdint.h>
 
 uint32_t clear_kth_bit(uint32_t bitmask, uint32_t cleared_bit) {
   return bitmask & ~(1 << cleared_bit);

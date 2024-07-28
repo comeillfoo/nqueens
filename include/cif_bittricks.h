@@ -1,4 +1,4 @@
-/* 
+/*
  * File:   cif_bittricks.h
  * Author: comeillfoo
  */
