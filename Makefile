@@ -11,7 +11,7 @@ LD=gcc
 
 all: nqueens
 
-nqueens: $(BUILDDIR)/main.o $(BUILDDIR)/cif_bittricks.o $(BUILDDIR)/cif_nqueens_problem.o
+nqueens: $(BUILDDIR)/main.o $(BUILDDIR)/resolver.o $(BUILDDIR)/bittricks.o
 	$(LD) $(LDFLAGS) -o $@ $^
 
 $(BUILDDIR)/%.o: $(SRCDIR)/%.c $(BUILDDIR)

@@ -11,7 +11,7 @@
 
 #include <time.h>
 
-#include "cif_nqueens_problem.h"
+#include "resolver.h"
 
 #define MAXIMUM_BOARD_SIZE 17
 
@@ -44,7 +44,7 @@ int main(int argc, char** argv) {
   printf("\nnot bit-tricked\n");
   printf("size, time\n");
 
-  // measure execution time for every calculation with bit tricks
+  // measure execution time for every calculation without bit tricks
   for (uint32_t size = 1; size < MAXIMUM_BOARD_SIZE; ++size) {
     clock_gettime(CLOCK_MONOTONIC, &start);
     brute_has_solution(size);

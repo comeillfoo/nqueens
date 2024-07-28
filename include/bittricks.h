@@ -1,10 +1,12 @@
 /*
- * File:   cif_bittricks.h
+ * File:   bittricks.h
  * Author: comeillfoo
  */
 
-#ifndef CIF_BITTRICKS_H
-#define CIF_BITTRICKS_H
+#ifndef BITTRICKS_H
+#define BITTRICKS_H
+
+#include <stdint.h>
 
 /**
  * The function that encapsulates the bit trick which resets one particular bit in 32-bit integer
@@ -33,5 +35,5 @@ uint32_t set_kth_bit(uint32_t bitmask, uint32_t set_bit);
  */
 uint32_t flipped_kth_bit(uint32_t bitmask, uint32_t toggled_bit);
 
-#endif /* CIF_BITTRICKS_H */
+#endif /* BITTRICKS_H */
 
